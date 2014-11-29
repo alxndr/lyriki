@@ -1,10 +1,9 @@
-#ruby "2.1.4"
-
 source "https://rubygems.org"
 
 gemspec
 
 group :test do
+  gem "codeclimate-test-reporter", require: nil
   gem "rspec"
   gem "vcr"
   gem "webmock"

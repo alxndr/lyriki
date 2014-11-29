@@ -1,4 +1,5 @@
-# TODO code climate
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 
 require "vcr"
 require "webmock/rspec"
