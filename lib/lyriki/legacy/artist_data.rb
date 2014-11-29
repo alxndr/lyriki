@@ -1,8 +1,11 @@
 require "json"
+require "web_helpers"
 
 module Lyriki
   module Legacy
     class ArtistData
+
+      include WebHelpers
 
       def initialize(name)
         @data = fetch_data(name)
@@ -20,10 +23,6 @@ module Lyriki
 
       def url_for_artist(name)
         "http://lyrics.wikia.com/api.php?func=getArtist&artist=#{url_encode(name)}&fmt=realjson"
-      end
-
-      def url_encode(str)
-        CGI.escape str
       end
 
     end
