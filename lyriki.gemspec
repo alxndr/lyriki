@@ -3,21 +3,21 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "lyriki/version"
 
-Gem::Specification.new do |spec|
-  spec.name          = "lyriki"
-  spec.version       = Lyriki::VERSION
-  spec.authors       = ["Alexander"]
-  spec.email         = ["alxndr+gem@gmail.com"]
-  spec.summary       = "A wrapper for the LyricsWiki API"
-  spec.description   = "A basic Ruby wrapper for the API provided by LyricsWiki (http://lyrics.wikia.com/)."
-  spec.homepage      = "http://github.com/alxndr/lyriki"
-  spec.license       = "MIT"
+Gem::Specification.new do |s|
+  s.name          = "lyriki"
+  s.version       = Lyriki::VERSION
+  s.authors       = ["Alexander"]
+  s.email         = ["alxndr+gem@gmail.com"]
+  s.summary       = "A wrapper for the LyricsWiki API"
+  s.description   = "A basic Ruby wrapper for the API provided by LyricsWiki (http://lyrics.wikia.com/)."
+  s.homepage      = "http://github.com/alxndr/lyriki"
+  s.license       = "MIT"
 
   s.files         = `git ls-files -z`.split("\x0")
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.test_files    = s.files.grep(%r{^spec/})
   s.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  s.add_development_dependency "bundler", "~> 1.6"
+  s.add_development_dependency "rake"
 end
