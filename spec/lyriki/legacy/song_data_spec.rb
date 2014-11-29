@@ -23,7 +23,7 @@ describe Lyriki::Legacy::SongData do
 
   describe "#response_data" do
     it { is_expected.to respond_to :response_data }
-    it 'returns data'
+    it "returns data"
   end
 
 end
