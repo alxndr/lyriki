@@ -1,6 +1,10 @@
+require "web_helpers"
+
 module Lyriki
   module Legacy
     class SongData
+
+      include WebHelpers
 
       def initialize(**args)
         raise ArgumentError unless args[:artist] && args[:song]
@@ -19,10 +23,6 @@ module Lyriki
 
       def url_for_song(artist, song)
         "http://lyrics.wikia.com/api.php?artist=#{url_encode(artist)}&song=#{url_encode(song)}&fmt=realjson"
-      end
-
-      def url_encode(str)
-        CGI.escape str
       end
 
     end
