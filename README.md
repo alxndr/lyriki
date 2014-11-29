@@ -1,29 +1,6 @@
-# Lyriki
+# lyriki: wrapper for [LyricsWiki](http://lyrics.wikia.com)'s [API](http://lyrics.wikia.com/LyricWiki:API)
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'lyriki'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install lyriki
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/lyriki/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+[![Build Status](https://travis-ci.org/alxndr/lyriki.png?branch=master)](https://travis-ci.org/alxndr/lyriki)
+[![Code Climate](https://codeclimate.com/github/alxndr/lyriki.png)](https://codeclimate.com/github/alxndr/lyriki)
+[![Coverage Status](https://coveralls.io/repos/alxndr/lyriki/badge.png)](https://coveralls.io/r/alxndr/lyriki)
+[![Dependency Status](https://gemnasium.com/alxndr/lyriki.png)](https://gemnasium.com/alxndr/lyriki)

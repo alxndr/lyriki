@@ -1,0 +1,7 @@
+language: ruby
+bundler_args: --without development
+rvm:
+  - 2.1.4
+  - ruby-head
+script:
+  - bundle exec rspec
