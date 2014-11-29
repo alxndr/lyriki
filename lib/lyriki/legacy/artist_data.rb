@@ -25,6 +25,7 @@ module Lyriki
       def url_encode(str)
         CGI.escape str
       end
+
     end
   end
 end
