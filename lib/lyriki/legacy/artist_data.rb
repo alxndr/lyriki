@@ -1,3 +1,5 @@
+require "json"
+
 module Lyriki
   module Legacy
     class ArtistData

@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     lyriki (0.0.1)
+      json (~> 1.8)
 
 GEM
   remote: https://rubygems.org/
@@ -29,6 +30,7 @@ GEM
       guard (~> 2.1)
       rspec (>= 2.14, < 4.0)
     hitimes (1.2.2)
+    json (1.8.1)
     listen (2.8.3)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
