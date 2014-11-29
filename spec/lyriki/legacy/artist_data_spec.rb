@@ -20,7 +20,7 @@ describe Lyriki::Legacy::ArtistData, vcr: { record: :none } do
 
   describe "initialize without a name" do
     it "should raise an error" do
-      expect{ Lyriki::Legacy::ArtistData.new }.to raise_error ArgumentError
+      expect { Lyriki::Legacy::ArtistData.new }.to raise_error ArgumentError
     end
   end
 
