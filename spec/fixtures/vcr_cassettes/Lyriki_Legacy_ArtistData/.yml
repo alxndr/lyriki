@@ -1,0 +1,316 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lyrics.wikia.com/api.php?artist=frank%20zappa&fmt=realjson&func=getArtist
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - lyrics.wikia.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=86400, s-maxage=86400, public
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      X-Cacheable:
+      - 'YES'
+      Content-Length:
+      - '9076'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sat, 29 Nov 2014 21:43:30 GMT
+      Age:
+      - '1665'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-wk-sjc3161-WIKIA, cache-lax1424-LAX
+      X-Cache:
+      - MISS, HIT
+      X-Cache-Hits:
+      - 0, 1
+      X-Timer:
+      - S1417297410.442738,VS0,VE0
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - Geo={%22city%22:%22FIXME%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
+        path=/
+      - wikia_beacon_id=9AcC58Yvy-; domain=.wikia.com; path=/; expires=Thu, 28 May
+        2015 21:43:30 GMT;
+    body:
+      encoding: UTF-8
+      string: '{"artist":"Frank Zappa","albums":[{"album":"Lumpy Gravy","year":"1968","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Lumpy%20Gravy","songs":["Lumpy
+        Gravy I","Lumpy Gravy II"]},{"album":"Hot Rats","year":"1969","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Hot%20Rats","songs":["Peaches
+        En Regalia","Willie The Pimp","Son Of Mr. Green Genes","Little Umbrellas","The
+        Gumbo Variations","It Must Be A Camel"]},{"album":"Chunga''s Revenge","year":"1970","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Chunga''s%20Revenge","songs":["Transylvania
+        Boogie","Road Ladies","Twenty Small Cigars","The Nancy & Mary Music","Tell
+        Me You Love Me","Would You Go All The Way?","Chunga''s Revenge","The Clap","Rudy
+        Wants To Buy Yez A Drink","Sharleena"]},{"album":"Fillmore East - June 1971","year":"1971","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Fillmore%20East%20-%20June%201971","songs":["Little
+        House I Used To Live In","The Mud Shark","What Kind Of Girl Do You Think We
+        Are?","Bwana Dik","Latex Solar Beef","Willie The Pimp (Part One)","Willie
+        The Pimp (Part Two)","Do You Like My New Car?","Happy Together","Lonesome
+        Electric Turkey","Peaches En Regalia","Tears Began To Fall"]},{"album":"200
+        Motels","year":"1971","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20200%20Motels","songs":["Semi-Fraudulent\/Direct-From-Hollywood
+        Overture","Mystery Roach","Dance Of The Rock & Roll Interviewers","This Town
+        Is A Sealed Tuna Sandwich (Prologue)","Tuna Fish Promenade","Dance Of The
+        Just Plain Folks","This Town Is A Sealed Tuna Sandwich (Reprise)","The Sealed
+        Tuna Bolero","Lonesome Cowboy Burt","Touring Can Make You Crazy","Would You
+        Like A Snack?","Redneck Eats","Centerville","She Painted Up Her Face","Janet''s
+        Big Dance Number","Half A Dozen Provocative Squats","Mysterioso","Shove It
+        Right In","Lucy''s Seduction Of A Bored Violinist & Postlude","I''m Stealing
+        The Towels","Dental Hygiene Dilemma","Does This Kind Of Life Look Interesting
+        To You?","Daddy, Daddy, Daddy","Penis Dimension","What Will This Evening Bring
+        Me This Morning","A Nun Suit Painted On Some Old Boxes","Magic Fingers","Motorhead''s
+        Midnight Ranch","Dew On The Newts We Got","The Lad Searches The Night For
+        His Newts","The Girl Wants To Fix Him Some Broth","The Girl''s Dream","Little
+        Green Scratchy Sweaters & Courduroy Ponce","Strictly Genteel (The Finale)"]},{"album":"Just
+        Another Band From L.A.","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Just%20Another%20Band%20From%20L.A.","songs":["Billy
+        The Mountain","The Mothers Of Invention:Call Any Vegetable","Eddie, Are You
+        Kidding?","Magdalena","Dog Breath"]},{"album":"Waka\/Jawaka","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Waka\/Jawaka","songs":["Big
+        Swifty","Your Mouth","It Just Might Be A One-Shot Deal","Waka\/Jawaka"]},{"album":"The
+        Grand Wazoo","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20The%20Grand%20Wazoo","songs":["The
+        Grand Wazoo","For Calvin (And His Next Two Hitch-Hikers)","Cletus Awreetus-Awrightus","Eat
+        That Question","Blessed Relief"]},{"album":"Over-Nite Sensation","year":"1973","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Over-Nite%20Sensation","songs":["Camarillo
+        Brillo","I''m The Slime","Dirty Love","Fifty-Fifty","Zomby Woof","Dinah-Moe
+        Humm","Montana"]},{"album":"Apostrophe ('')","year":"1974","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Apostrophe%20('')","songs":["Don''t
+        Eat The Yellow Snow","Nanook Rubs It","St. Alfonzo''s Pancake Breakfast","Father
+        O''Blivion","Cosmik Debris","Excentrifugal Forz","Apostrophe''","Uncle Remus","Stink-Foot"]},{"album":"Roxy
+        & Elsewhere","year":"1974","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Roxy%20&%20Elsewhere","songs":["Penguin
+        In Bondage","Pygmy Twylyte","Dummy Up","Village Of The Sun","Echidna''s Arf
+        (Of You)","Don''t You Ever Wash That Thing?","Cheepnis","Son Of Orange County","More
+        Trouble Every Day","Be-Bop Tango (Of The Old Jazzmen''s Church)"]},{"album":"One
+        Size Fits All","year":"1975","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20One%20Size%20Fits%20All","songs":["Inca
+        Roads","Can''t Afford No Shoes","Sofa No. 1","Po-Jama People","Florentine
+        Pogen","Evelyn, A Modified Dog","San Ber''dino","Andy","Sofa No. 2"]},{"album":"Bongo
+        Fury","year":"1975","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Zappa\/Beefheart\/Mothers%20Bongo%20Fury","songs":["Zappa\/Beefheart\/Mothers:Debra
+        Kadabra","Zappa\/Beefheart\/Mothers:Carolina Hard-core Ecstasy","Zappa\/Beefheart\/Mothers:Sam
+        With The Showing Scalp Flat Top","Zappa\/Beefheart\/Mothers:Poofter''s Froth
+        Wyoming Plans Ahead","Zappa\/Beefheart\/Mothers:200 Years Old","Zappa\/Beefheart\/Mothers:Cucamonga","Zappa\/Beefheart\/Mothers:Advance
+        Romance","Zappa\/Beefheart\/Mothers:Man With The Woman Head","Zappa\/Beefheart\/Mothers:Muffin
+        Man"]},{"album":"Zoot Allures","year":"1976","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Zoot%20Allures","songs":["Wind
+        Up Workin'' In A Gas Station","Black Napkins","The Torture Never Stops","Ms.
+        Pinky","Find Her Finer","Friendly Little Finger","Wonderful Wino","Zoot Allures","Disco
+        Boy"]},{"album":"Zappa In New York","year":"1978","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Zappa%20In%20New%20York","songs":["Titties
+        & Beer","The Mothers Of Invention:Cruising For Burgers","I Promise Not To
+        Come In Your Mouth","Punky''s Whips","Honey Don''t You Want A Man Like Me?","The
+        Illinois Enema Bandit","I''m The Slime","Pound For A Brown","Manx Needs Women","The
+        Black Page Drum Solo\/Black Page Number 1","The Mothers Of Invention:Big Leg
+        Emma","Sofa No. 1","Black Page Number 2","The Torture Never Stops","The Purple
+        Lagoon\/Approximate"]},{"album":"Studio Tan","year":"1978","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Studio%20Tan","songs":["The
+        Adventures Of Greggery Peccary","Revised Music For Guitar And Low-Budget Orchestra","Lemme
+        Take You To The Beach","RDNZL"]},{"album":"Sleep Dirt","year":"1979","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Sleep%20Dirt","songs":["Filthy
+        Habits","Flambay","Spider Of Destiny","Regyptian Strut","Time Is Money","Sleep
+        Dirt","The Ocean Is The Ultimate Solution"]},{"album":"Sheik Yerbouti","year":"1979","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Sheik%20Yerbouti","songs":["I
+        Have Been In You","Flakes","Broken Hearts Are For Assholes","I''m So Cute","Jones
+        Crusher","What Ever Happened To All The Fun In The World","Rat Tomago","We
+        Gotta Get Into Something Real","Bobby Brown","Rubber Shirt","The Sheik Yerbouti
+        Tango","Baby Snakes","Tryin'' To Grow A Chin","City Of Tiny Lites","Dancin''
+        Fool","Jewish Princess","Wild Love","Yo Mama"]},{"album":"Orchestral Favorites","year":"1979","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Orchestral%20Favorites","songs":["Strictly
+        Genteel (The Finale)","Pedro''s Dowry","Naval Aviation In Art?","The Mothers
+        Of Invention:The Duke Of Prunes","Bogus Pomp"]},{"album":"Joe''s Garage","year":"1979","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Joe''s%20Garage","songs":["The
+        Central Scrutinizer","Joe''s Garage","Catholic Girls","Crew Slut","Fembot
+        In A Wet T-Shirt","On The Bus (Aka Toad-O Line)","Why Does It Hurt When I
+        Pee?","Lucille Has Messed My Mind Up","Scrutinizer Postlude","A Token Of My
+        Extreme","Stick It Out","Sy Borg","Dong Work For Yuda","Keep It Greasey","Outside
+        Now","He Used To Cut The Grass","Packard Goose","Watermelon In Easter Hay","A
+        Little Green Rosetta"]},{"album":"Tinseltown Rebellion","year":"1981","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Tinseltown%20Rebellion","songs":["Fine
+        Girl","Easy Meat","For The Young Sophisticate","Love Of My Life","I Ain''t
+        Got No Heart","Panty Rap","Tell Me You Love Me","Now You See It - Now You
+        Don''t","Dance Contest","The Blue Light","Tinsel-Town Rebellion","Pick Me,
+        I''m Clean","Bamboozled By Love","The Mothers Of Invention:Brown Shoes Don''t
+        Make It","Peaches III"]},{"album":"Shut Up ''N Play Yer Guitar","year":"1981","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Shut%20Up%20''N%20Play%20Yer%20Guitar","songs":["Five-Five-Five","Hog
+        Heaven","Shut Up ''N Play Yer Guitar","While You Were Out","Treacherous Cretins","Heavy
+        Duty Judy","Soup ''n Old Clothes","Variations On The Carlos Santana Secret
+        Chord Progression","Gee, I Like Your Pants","Canarsie","Ship Ahoy","The Deathless
+        Horsie","Shut Up ''N Play Yer Guitar Some More","Pink Napkins","Beat It With
+        Your Fist","Return Of The Son Of Shut Up ''N Play Yer Guitar","Pinocchio''s
+        Furniture","Why Johnny Can''t Read","Stucco Homes","Canard Du Jour"]},{"album":"You
+        Are What You Is","year":"1981","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20You%20Are%20What%20You%20Is","songs":["Teen-Age
+        Wind","Harder Than Your Husband","Doreen","Goblin Girl","Theme From The 3rd
+        Movement Of Sinister Footwear","Society Pages","I''m A Beautiful Guy","Beauty
+        Knows No Pain","Charlie''s Enormous Mouth","Any Downers?","Conehead","You
+        Are What You Is","Mudd Club","The Meek Shall Inherit Nothing","Dumb All Over","Heavenly
+        Bank Account","Suicide Chump","Jumbo Go Away","If Only She Woulda","Drafted
+        Again"]},{"album":"Ship Arriving Too Late To Save A Drowning Witch","year":"1982","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Ship%20Arriving%20Too%20Late%20To%20Save%20A%20Drowning%20Witch","songs":["No
+        Not Now","Valley Girl","I Come From Nowhere","Drowning Witch","Envelopes","Teen-Age
+        Prostitute"]},{"album":"The Man From Utopia","year":"1983","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20The%20Man%20From%20Utopia","songs":["Cocaine
+        Decisions","Sex","Tink Walks Amok","The Radio Is Broken","We Are Not Alone","The
+        Dangerous Kitchen","The Man From Utopia Meets Mary Lou","Stick Together","The
+        Jazz Discharge Party Hats","Luigi & The Wise Guys","Moggio"]},{"album":"Them
+        Or Us","year":"1984","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Them%20Or%20Us","songs":["The
+        Closer You Are","In France","Ya Hozna","Sharleena","Sinister Footwear II","Truck
+        Driver Divorce","Stevie''s Spanking","Baby, Take Your Teeth Out","Marqueson''s
+        Chicken","Planet Of My Dreams","Be In My Video","Them Or Us","Frogs With Dirty
+        Little Lips","Whippin'' Post"]},{"album":"Thing-Fish","year":"1984","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Thing-Fish","songs":["Prologue","The
+        Mammy Nuns","Harry & Rhonda","Galoot Up-Date","The ''Torchum'' Never Stops","That
+        Evil Prince","You Are What You Is","Mudd Club","The Meek Shall Inherit Nothing","Clowns
+        On Velvet","Harry-As-A-Boy","He''s So Gay","The Massive Improve''lence","Artificial
+        Rhonda","The Crab-Grass Baby","The White Boy Troubles","No Not Now","Briefcase
+        Boogie","Brown Moses","Wistful Wit A Fist-Full","Drop Dead","Won Ton On"]},{"album":"Frank
+        Zappa Meets The Mothers Of Prevention","year":"1985","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Frank%20Zappa%20Meets%20The%20Mothers%20Of%20Prevention","songs":["I
+        Don''t Even Care","One Man, One Vote","Little Beige Sambo","Aerobics In Bondage","We''re
+        Turning Again","Alien Orifice","Yo Cats","What''s New In Baltimore?","Porn
+        Wars","H.R. 2911"]},{"album":"Does Humor Belong In Music?","year":"1986","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Does%20Humor%20Belong%20In%20Music?","songs":["Zoot
+        Allures","Tinsel-Town Rebellion","More Trouble Every Day","Penguin In Bondage","Hot-Plate
+        Heaven At The Green Hotel","What''s New In Baltimore?","Cock-Suckers'' Ball","WPLJ","Let''s
+        Move To Cleveland","Whippin'' Post"]},{"album":"Jazz From Hell","year":"1986","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Jazz%20From%20Hell","songs":["Night
+        School","The Beltway Bandits","While You Were Art II","Jazz From Hell","G-Spot
+        Tornado","Damp Ankles","St. Etienne","Massaggio Galore"]},{"album":"Guitar","year":"1988","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Guitar","songs":["Sexual
+        Harassment In The Workplace","Which One Is It?","Republicans","Do Not Pass
+        Go","Chalk Pie","In-A-Gadda-Stravinsky","That''s Not Really Reggae","When
+        No One Was No One","Once Again, Without The Net","Outside Now (Original Solo)","Jim
+        & Tammy''s Upper Room","Were We Ever Really Safe In San Antonio?","That Ol''
+        G Minor Thing Again","Hotel Atlanta Incidentals","That''s Not Really A Shuffle","Move
+        It Or Park It","Sunrise Redeemer","Variations On Sinister Number 3","Orrin
+        Hatch On Skis","But Who Was Fulcanelli?","For Duane","Goa","Winos Do Not March","Swans?
+        What Swans?","Too Ugly For Show Business","Systems Of Edges","Do Not Try This
+        At Home","Things That Look Like Meat","Watermelon In Easter Hay","Canadian
+        Customs","Is That All There Is?","It Ain''t Necessarily The Saint James Infirmary"]},{"album":"Broadway
+        The Hard Way","year":"1988","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Broadway%20The%20Hard%20Way","songs":["Elvis
+        Has Just Left The Building","Planet Of The Baritone Women","Any Kind Of Pain","Dickie''s
+        Such An Asshole (The San Clemente Magnetic Deviation)","When The Lie''s So
+        Big","Rhymin'' Man","Promiscuous","The Untouchables","Why Don''t You Like
+        Me?","Bacon Fat","Stolen Moments","Murder By Numbers","Jezebel Boy","Outside
+        Now","Hot-Plate Heaven At The Green Hotel","What Kind Of Girl?","Jesus Thinks
+        You''re A Jerk"]},{"album":"The Best Band You Never Heard In Your Life","year":"1991","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20The%20Best%20Band%20You%20Never%20Heard%20In%20Your%20Life","songs":["Heavy
+        Duty Judy","Ring Of Fire","Cosmik Debris","Find Her Finer","The Mothers Of
+        Invention:Who Needs The Peace Corps?","I Left My Heart In San Francisco","Zomby
+        Woof","Bolero","Zoot Allures","Mr. Green Genes","Florentine Pogen","Andy","Inca
+        Roads","Sofa No. 1","Purple Haze","Sunshine Of Your Love","Let''s Move To
+        Cleveland","When Irish Eyes Are Smiling","\"Godfather Part II\" Theme","A
+        Few Moments With Brother A. West","The Torture Never Stops Part One","Theme
+        From \"Bonanza\"","Lonesome Cowboy Burt (Swaggart Version)","The Torture Never
+        Stops Part Two","More Trouble Every Day (Swaggart Version)","Penguin In Bondage
+        (Swaggart Version)","The Eric Dolphy Memorial Barbecue","Stairway To Heaven"]},{"album":"Playground
+        Psychotics","year":"1992","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Playground%20Psychotics","songs":["Here
+        Comes The Gear, Lads","The Living Garbage Truck","A Typical Sound Check","This
+        Is Neat","The Motel Lobby","Getting Stewed","The Motel Room","\"Don''t Take
+        Me Down\"","The Dressing Room","Learning \"Penis Dimension\"","\"You There,
+        With The Hard On!\"","Zanti Serenade","Divan","Sleeping In A Jar","\"Don''t
+        Eat There\"","Brixton Still Life","Super Grease","Wonderful Wino","Sharleena","The
+        Mothers Of Invention:Cruising For Burgers","Diptheria Blues","Well","Say Please","Aaawk","Scum
+        Bag","A Small Eternity With Yoko Ono","Beer Shampoo","Champagne Lecture","Childish
+        Perversions","Playground Psychotics","The Mudshark Interview","\"There''s
+        No Lust In Jazz\"","Botulism On The Hoof","You Got Your Armies","The Spew
+        King","I''m Doomed","The Mothers Of Invention:Status Back Baby","The London
+        Cab Tape","Concentration Moon, Part One","The Sanzini Brothers","\"It''s A
+        Good Thing We Get Paid To Do This\"","Concentration Moon, Part Two","The Mothers
+        Of Invention:Mom & Dad","Intro To Music For Low Budget Orchestra","Billy The
+        Mountain","He''s Watching Us","If You''re Not A Professional Actor","He''s
+        Right","Going For The Money","Jeff Quits","A Bunch Of Adventures","Martin
+        Lickert''s Story","A Great Guy","Bad Acting","The Worst Reviews","A Version
+        Of Himself","I Could Be A Star Now"]},{"album":"The Yellow Shark","year":"1993","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20The%20Yellow%20Shark","songs":["Intro","Dog
+        Breath Variations","Uncle Meat","Outrage At Valdez","Times Beach II","III
+        Revised","The Girl In The Magnesium Dress","Be-Bop Tango (Of The Old Jazzmen''s
+        Church)","Ruth Is Sleeping","None Of The Above (Revised & Previsited)","Pentagon
+        Afternoon","Questi Cazzi Di Piccione","Times Beach III","Food Gathering In
+        Post-Industrial America, 1992","Welcome To The United States","Pound For A
+        Brown","Exercise #4","Get Whitey","G-Spot Tornado"]},{"album":"Civilization
+        Phaze III","year":"1994","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Civilization%20Phaze%20III","songs":["\"This
+        Is Phaze III\"","Put A Motor In Yourself","\"Oh-Umm\"","They Made Me Eat It","Reagan
+        At Bitburg","\"A Very Nice Body\"","Navanax","\"How The Pigs'' Music Works\"","Xmas
+        Values","\"Dark Water!\"","Amnerika","\"Have You Heard Their Band?\"","Religious
+        Superstition","\"Saliva Can Only Take So Much\"","Buffalo Voice","\"Someplace
+        Else Right Now\"","Get A Life","\"A Kayak (On Snow)\"","N-Lite","\"I Wish
+        Motorhead Would Come Back\"","Secular Humanism","\"Attack! Attack! Attack!\"","I
+        Was In A Drum","\"A Different Octave\"","\"This Ain''t CNN\"","\"The Pigs''
+        Music\"","A Pig With Wings","\"This Is All Wrong\"","Hot & Putrid","\"Flowing
+        Inside-Out\"","\"I Had A Dream About That\"","Gross Man","\"A Tunnel Into
+        Muck\"","Why Not?","\"Put A Little Motor In ''Em\"","\"You''re Just Insultin''
+        Me, Aren''t You!\"","\"Cold Light Generation\"","Dio Fa","\"That Would Be
+        The End Of That\"","Beat The Reaper","Waffenspiel"]},{"album":"EIHN - Everything
+        Is Healing Nicely","year":"1999","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20EIHN%20-%20Everything%20Is%20Healing%20Nicely","songs":["Library
+        Card","This Is A Test","Jolly Good Fellow","Roland''s Big Event\/Strat Vindaloo","Master
+        Ringo","T''Mershi Duween","Nap Time","9\/8 Objects","Naked City","Whitey (Prototype)","Amnerika
+        Goes Home","None Of The Above (Revised & Previsited)","Wonderful Tattoo!"]},{"album":"FZOZ","year":"2002","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20FZOZ","songs":["Hordern
+        Intro (Incan Art Vamp)","Stink-Foot","The Poodle Lecture","Dirty Love","Filthy
+        Habits","How Could I Be Such A Fool?","I Ain''t Got No Heart","I''m Not Satisfied","Black
+        Napkins","Zappa\/Beefheart\/Mothers:Advance Romance","The Illinois Enema Bandit","Wind
+        Up Workin'' In A Gas Station","The Torture Never Stops","Canard Toujours","Kaiser
+        Rolls","Find Her Finer","Carolina Hard-Core Ecstasy","The Mothers Of Invention:Lonely
+        Little Girl","The Mothers Of Invention:Take Your Clothes Off When You Dance","The
+        Mothers Of Invention:What''s The Ugliest Part Of Your Body?","Chunga''s Revenge","Zoot
+        Allures","Keep It Greasey","Dinah-Moe Humm","Camarillo Brillo","Zappa\/Beefheart\/Mothers:Muffin
+        Man","Kaiser Rolls (Du Jour)"]},{"album":"Joe''s Corsage","year":"2004","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Joe''s%20Corsage","songs":["\"Pretty
+        Pat\"","The Mothers Of Invention:Motherly Love","Plastic People","The Mothers
+        Of Invention:Any Way The Wind Blows","I Ain''t Got No Heart","The Phone Call\/My
+        Babe","Wedding Dress Song\/Handsome Cabin Boy","Hitch Hike","I''m So Happy
+        I Could Cry","The Mothers Of Invention:Go Cry On Somebody Else''s Shoulder","How
+        Could I Be Such A Fool?","\"We Made Our Reputation Doing It That Way...\""]},{"album":"Bootlegs
+        And Other Songs","year":null,"amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank_Zappa%20Bootlegs%20And%20Other%20Songs","songs":["Ancient
+        Armaments","Black Napkins (The Deathless Horsie)","Drooling Midrange Accountants
+        On Easter Hay","Love Story","Sleeping In A Jar","Venusian Time Bandits","When
+        It''s Perfect...","When It Feels Natural...","Volare"]},{"album":"Other Songs","year":null,"amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank_Zappa%20Other%20Songs","songs":["\"We
+        Made Our Reputation Doing It That Way ...\"","A Game Of Cards","Alley Cat","Any
+        Way The Wind Blows","Approximate","Are You Upset?","Babbette","Baked-Bean
+        Boogie","Bamboozled By Love (Incl. Owner Of A Lonely Heart)","Basement Music
+        Number 1","Be In My Video (YCDTOSA)","Beauty Knows No Pain (YCDTOSA)","Big
+        Swifty (YCDTOSA1)","Big Swifty (YCDTOSA2)","Bobby Brown Goes Down (Live Version)","Bobby
+        Brown Goes Down (YCDTOSA)","Bobby Brown Goes Down","Building A Girl","Carol,
+        You Fool","Catholic Girls (Live Version)","Chana In De Bushwop","Charles Ives","Charlie''s
+        Enormous Mouth (YCDTOSA)","Charva","Cheap Thrills","Cheepnis (YCDTOSA)","Chocolate
+        Halvah","Church Chat","Cocaine Decisions (YCDTOSA)","Cops & Buns","Cosmik
+        Debris (YCDTOSA)","Cradle Rock","Dead Girls Of London","Dickie''s Such An
+        Asshole (YCDTOSA)","Diseases Of The Band","Don''t Eat The Yellow Snow Medley","Don''t
+        You Ever Wash That Thing? (YCDTOSA)","Drowning Witch (YCDTOSA)","Dumb All
+        Over (YCDTOSA)","Dupree''s Paradise","Echidna''s Arf (Of You) (YCDTOSA)","Exercise
+        Number 4","FZ\/JCB Drum Duet","Fine Girl (YCDTOSA)","Flowing Inside-Out","Fountain
+        Of Love","Geneva Farewell","German Lunch","Hands With A Hammer","Handsome
+        Cabin Boy","Harry, You''re A Beast","Heavenly Bank Account (YCDTOSA)","Here
+        Lies Love","Honey, Don''t You Want A Man Like Me? (YCDTOSA)","Honey, Don''t
+        You Want A Man Like Me?","Hot Plate Heaven At The Green Hotel","How''s Your
+        Bird?","Hungry Freaks, Daddy","I Don''t Wanna Get Drafted","I''m A Band Leader","I''m
+        A Beautiful Guy (YCDTOSA)","I''m The Slime (YCDTOSA)","In France (YCDTOSA)","Inca
+        Roads (YCDTOSA)","Jcb & Kansas On The Bus 1","Jcb & Kansas On The Bus 2","Joe''s
+        Garage (Live Version)","Joe''s Garage (Single Version)","Joe''s Garage (YCDTOSA)","Johnny
+        Darling","Keep It Greasey (YCDTOSA)","Kenny''s Booger Story","King Kong (YCDTOSA)","King
+        Kong","Kung Fu","Let''s Make The Water Turn Black Medley","Lil'' Clanton Shuffle","Little
+        Girl Of Mine","Little Rubber Girl","Lonesome Cowboy Nando","Lost In A Whirlpool","Louie
+        Louie","Lucille Has Messed My Mind Up (YCDTOSA)","Madison Panty-Sniffing Festival","Mary
+        Lou","Meow","Montana (Whipping Floss)","Mount St. Mary''s Concert Excerpt","Mozart
+        Ballet - Piano Sonata In B Flat","My Guitar Wants To Kill Your Mama (Live
+        Version)","My Guitar Wants To Kill Your Mama","My Head?","Nig Biz","No Waiting
+        For The Peanuts To Dissolve","No, No Cherry","Oh No (YCDTOSA)","Oh No","Once
+        Upon A Time","Piano\/Drum Duet","Porn Wars Deluxe","Proto-Minimalism","Pygmy
+        Twylyte (YCDTOSA)","RDNZL (YCDTOSA)","Return Of The Hunch-Back Duke","Ride
+        My Face To Chicago","Right There","Ronnie Sings?","Ronnie''s Booger Story","Room
+        Service","Run Home Cues, Number 2","Run Home Cues, Number 3","Run Home Slow
+        Theme","Run Home Slow: Main Title Theme","Ruthie-Ruthie","Satumaa (Finnish
+        Tango)","Shall We Take Ourselves Seriously?","Sharleena (YCDTOSA)","Smell
+        My Beard","Society Pages (YCDTOSA)","Sofa No. 1 (YCDTOSA)","Sofa No. 2 (YCDTOSA)","Soup
+        ''N Old Clothes","Stinkfoot (YCDTOSA)","Suicide Chump (YCDTOSA)","Sweet Leilani","Take
+        Me Out To The Ball Game","Tell Me You Love Me (YCDTOSA)","The Big Squeeze","The
+        Blackouts","The Booger Man","The Dangerous Kitchen (YCDTOSA)","The Dead Girls
+        Of London","The Deathless Horsie (YCDTOSA)","The Dick Kunc Story","The Dog
+        Breath Variations","The Downtown Talent Scout","The Evil Prince","The Florida
+        Airport Tape","The Groupie Routine","The Idiot Bastard Son","The Little March","The
+        M.O.I. Anti-Smut Loyalty Oath","The Madison Panty-Sniffing Festival","The
+        Mammy Anthem","The Man From Utopia","The Torture Never Stops (Original Version)","The
+        Torture Never Stops (YCDTOSA)","Tiger Roach","Tiny Sick Tears","Titties N
+        Beer","Trouble Every Day","Tryin'' To Grow A Chin (YCDTOSA)","Tush Tush Tush
+        (A Token Of My Extreme)","Underground Freak-Out Music","Village Of The Sun
+        (YCDTOSA)","Wedding Dress Song","Where Is Johnny Velvet?","Where''s Our Equipment?","Why
+        Does It Hurt When I Pee? (YCDTOSA)","World''s Greatest Sinners","Wowie Zowie","You
+        Call That Music?","You Didn''t Try To Call Me","Zomby Woof (YCDTOSA)","Zoot
+        Allures (YCDTOSA)"]}]}'
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 21:43:30 GMT
+recorded_with: VCR 2.9.3
