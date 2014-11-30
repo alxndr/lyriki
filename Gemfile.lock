@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     lyriki (0.0.1)
-      json (~> 1.8)
+      json
+      nokogiri
 
 GEM
   remote: https://rubygems.org/
@@ -37,7 +38,10 @@ GEM
       rb-inotify (>= 0.9)
     lumberjack (1.0.9)
     method_source (0.8.2)
+    mini_portile (0.6.1)
     multi_json (1.10.1)
+    nokogiri (1.6.4.1)
+      mini_portile (~> 0.6.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)

@@ -14,7 +14,7 @@ describe WebHelpers do
     end
   end
 
-  describe "get" do
+  describe "#get" do
     it { is_expected.to respond_to :get }
     it "should hit Net::HTTP"
     it "should use URI"
