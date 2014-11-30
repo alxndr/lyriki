@@ -9,7 +9,11 @@ Gem::Specification.new do |s|
   s.authors       = ["Alexander"]
   s.email         = ["alxndr+gem@gmail.com"]
   s.summary       = "A wrapper for the LyricsWiki API"
-  s.description   = "A basic Ruby wrapper for the API provided by LyricsWiki (http://lyrics.wikia.com/)."
+  s.description   = <<-DESC
+    A basic Ruby wrapper for the API provided by LyricsWiki (http://lyrics.wikia.com/).
+
+    Currently only implements fetching artist data, song data, and song lyrics.
+  DESC
   s.homepage      = "http://github.com/alxndr/lyriki"
   s.license       = "MIT"
 
