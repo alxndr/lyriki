@@ -8,7 +8,7 @@ module Lyriki
       include WebHelpers
 
       def initialize(name)
-        @data = get url_for_artist(name)
+        @data = get(url_for_artist(name))
       end
 
       def response_data
@@ -18,7 +18,7 @@ module Lyriki
       private
 
       def url_for_artist(name)
-        "http://lyrics.wikia.com/api.php?func=getArtist&artist=#{url_encode(name)}&fmt=realjson"
+        "http://lyrics.wikia.com/api.php?func=getArtist&artist=#{name.url_encode}&fmt=realjson"
       end
 
     end

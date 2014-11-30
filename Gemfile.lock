@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lyriki (0.0.1)
+    lyriki (1.0.0)
       json
       nokogiri
 

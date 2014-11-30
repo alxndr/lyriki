@@ -9,7 +9,7 @@ module Lyriki
 
       def initialize(**args)
         raise ArgumentError unless args[:artist] && args[:song]
-        @data = get url_for_song(args[:artist], args[:song])
+        @data = get(url_for_song(args[:artist], args[:song]))
       end
 
       def response_data
@@ -19,7 +19,7 @@ module Lyriki
       private
 
       def url_for_song(artist, song)
-        "http://lyrics.wikia.com/api.php?artist=#{url_encode(artist)}&song=#{url_encode(song)}&fmt=realjson"
+        "http://lyrics.wikia.com/api.php?artist=#{artist.url_encode}&song=#{song.url_encode}&fmt=realjson"
       end
 
     end
