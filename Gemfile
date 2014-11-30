@@ -13,5 +13,4 @@ group :development do
   gem "awesome_print"
   gem "guard"
   gem "guard-rspec"
-  gem "pry"
 end
