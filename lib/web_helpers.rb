@@ -1,11 +1,13 @@
-module WebHelpers
+require "custom_string_methods"
 
-  def url_encode(str)
-    CGI.escape str
-  end
+module WebHelpers
 
   def get(url)
     Net::HTTP.get URI(url)
+  end
+
+  String.instance_eval do
+    include CustomStringMethods
   end
 
 end
