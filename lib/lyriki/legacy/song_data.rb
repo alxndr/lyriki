@@ -1,3 +1,4 @@
+require "json"
 require "web_helpers"
 
 module Lyriki
