@@ -28,14 +28,8 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "nokogiri"
 
   s.add_development_dependency "bundler", "~> 1.6"
-  s.add_development_dependency "guard"
-  s.add_development_dependency "guard-rspec"
-  s.add_development_dependency "pry"
-  s.add_development_dependency "pry-nav"
-  s.add_development_dependency "pry-remote"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
-  s.add_development_dependency "rspec-nc"
   s.add_development_dependency "vcr"
   s.add_development_dependency "webmock"
 end
