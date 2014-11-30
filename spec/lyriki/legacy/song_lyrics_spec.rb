@@ -1,14 +1,20 @@
 require "spec_helper"
 
-describe Lyriki::Legacy::SongLyrics do
+describe Lyriki::Legacy::SongLyrics, vcr: { record: :none } do
 
-  subject { Lyriki::Legacy::SongLyrics.new artist: "fz", song: "inca roads" }
+  subject { Lyriki::Legacy::SongLyrics.new artist: "frank zappa", song: "inca roads" }
 
   it { is_expected.to be_truthy }
 
   describe "response_data" do
-    it { is_expected.to respond_to :response_data }
-    it "returns data"
+    it "returns data" do
+      data = subject.response_data
+      trimmed_data = data.map(&:strip)
+
+      expect(trimmed_data).to include "Did a vehicle"
+      expect(trimmed_data).to include "Come from somewhere out there"
+      expect(trimmed_data).to include "That's Ruth"
+    end
   end
 
   describe "initialize" do

@@ -8,7 +8,7 @@ module Lyriki
 
       def initialize(**args)
         raise ArgumentError unless args[:artist] && args[:song]
-        @data = fetch_data(artist: args[:artist], song: args[:song])
+        @data = get url_for_song(args[:artist], args[:song])
       end
 
       def response_data
@@ -16,10 +16,6 @@ module Lyriki
       end
 
       private
-
-      def fetch_data(artist:, song:)
-        Net::HTTP.get(URI(url_for_song(artist, song)))
-      end
 
       def url_for_song(artist, song)
         "http://lyrics.wikia.com/api.php?artist=#{url_encode(artist)}&song=#{url_encode(song)}&fmt=realjson"

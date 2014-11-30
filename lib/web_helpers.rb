@@ -4,8 +4,8 @@ module WebHelpers
     CGI.escape str
   end
 
-  def get
-
+  def get(url)
+    Net::HTTP.get URI(url)
   end
 
 end

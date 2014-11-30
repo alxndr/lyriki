@@ -16,6 +16,8 @@ describe Lyriki::Legacy::SongData, vcr: { record: :none } do
       expect(data["song"]).to eq "Inca Roads"
       expect(data).to have_key "lyrics"
       expect(data["lyrics"].split("\n").length).to eq 11
+      expect(data).to have_key "url"
+      expect(data["url"]).to eq "http://lyrics.wikia.com/Frank_Zappa:Inca_Roads"
     end
   end
 
