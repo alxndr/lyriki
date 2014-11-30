@@ -87,7 +87,6 @@ DEPENDENCIES
   guard
   guard-rspec
   lyriki!
-  pry
   rake
   rspec
   vcr
