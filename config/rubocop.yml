@@ -1,4 +1,7 @@
 ShowCopNames: true
+AllCops:
+  Exclude:
+    - 'spec/fixtures'
 
 LineLength:
   Max: 110
