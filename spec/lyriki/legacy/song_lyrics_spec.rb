@@ -25,7 +25,7 @@ describe Lyriki::Legacy::SongLyrics, vcr: { record: :none } do
     end
     describe "without a song" do
       it "should raise an error" do
-        expect{ Lyriki::Legacy::SongLyrics.new artist: "fz" }.to raise_error(ArgumentError)
+        expect { Lyriki::Legacy::SongLyrics.new artist: "fz" }.to raise_error(ArgumentError)
       end
     end
   end
