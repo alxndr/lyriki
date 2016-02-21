@@ -37,33 +37,33 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Sun, 21 Feb 2016 16:23:27 GMT
+      - Sun, 21 Feb 2016 16:38:26 GMT
       Age:
-      - '1892'
+      - '2791'
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-wk-sjc3160-WIKIA, cache-sjc3648-SJC
+      - cache-wk-sjc3160-WIKIA, cache-sjc3622-SJC
       X-Cache:
       - MISS, HIT
       X-Cache-Hits:
       - 0, 1
       X-Timer:
-      - S1456071807.718724,VS0,VE0
+      - S1456072706.464450,VS0,VE0
       Vary:
       - Accept-Encoding
       Set-Cookie:
       - Geo={%22region%22:%22CA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
         path=/
-      - wikia_beacon_id=6-VTXvstpA; domain=.wikia.com; path=/; expires=Fri, 19 Aug
-        2016 16:23:27 GMT;
+      - wikia_beacon_id=9uejkFR6of; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+        2016 16:38:26 GMT;
     body:
       encoding: UTF-8
       string: '{"artist":"Frank Zappa","song":"Inca Roads","lyrics":"Did a vehicle
         \nCome from somewhere out there \nJust to land in the Andes? \nWas it round
         \nAnd did it have \nA motor \nOr was it \nSomething \nDifferent \n\n[...]","url":"http:\/\/lyrics.wikia.com\/Frank_Zappa:Inca_Roads","page_namespace":0,"page_id":328883,"isOnTakedownList":"0"}'
     http_version: 
-  recorded_at: Sun, 21 Feb 2016 16:23:27 GMT
+  recorded_at: Sun, 21 Feb 2016 16:38:26 GMT
 - request:
     method: get
     uri: http://lyrics.wikia.com/Frank_Zappa:Inca_Roads
@@ -103,31 +103,31 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Sun, 21 Feb 2016 16:23:27 GMT
+      - Sun, 21 Feb 2016 16:38:26 GMT
       Age:
-      - '96'
+      - '0'
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-wk-sjc3160-WIKIA, cache-sjc3133-SJC
+      - cache-wk-sjc3160-WIKIA, cache-sjc3644-SJC
       X-Cache:
       - MISS, HIT
       X-Cache-Hits:
-      - 0, 2
+      - 0, 1
       X-Timer:
-      - S1456071807.761945,VS0,VE0
+      - S1456072706.509954,VS0,VE0
       Vary:
       - Accept-Encoding
       Set-Cookie:
-      - wikia_beacon_id=FjylYP7DWD; domain=.wikia.com; path=/; expires=Fri, 19 Aug
-        2016 16:23:27 GMT;
+      - wikia_beacon_id=aKtc3BfOuY; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+        2016 16:38:26 GMT;
       Cache-Control:
       - private, s-maxage=0, max-age=0, must-revalidate
     body:
       encoding: UTF-8
       string: Moved to <a href="http://lyrics.wikia.com/wiki/Frank_Zappa:Inca_Roads">http://lyrics.wikia.com/wiki/Frank_Zappa:Inca_Roads</a>
     http_version: 
-  recorded_at: Sun, 21 Feb 2016 16:23:27 GMT
+  recorded_at: Sun, 21 Feb 2016 16:38:26 GMT
 - request:
     method: get
     uri: http://lyrics.wikia.com/wiki/Frank_Zappa:Inca_Roads
@@ -171,26 +171,26 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Sun, 21 Feb 2016 16:23:27 GMT
+      - Sun, 21 Feb 2016 16:38:26 GMT
       Age:
-      - '96'
+      - '995'
       Connection:
       - keep-alive
       X-Served-By:
-      - ap-s17, cache-wk-sjc3161-WIKIA, cache-sjc3637-SJC
+      - ap-s17, cache-wk-sjc3161-WIKIA, cache-sjc3126-SJC
       X-Cache:
       - ORIGIN, MISS, HIT
       X-Cache-Hits:
-      - ORIGIN, 0, 1
+      - ORIGIN, 0, 2
       X-Timer:
-      - S1456071807.804926,VS0,VE5
+      - S1456072706.554756,VS0,VE0
       Vary:
       - Accept-Encoding,Cookie
       Set-Cookie:
       - Geo={%22region%22:%22CA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
         path=/
-      - wikia_beacon_id=1RN5Ifam7x; domain=.wikia.com; path=/; expires=Fri, 19 Aug
-        2016 16:23:27 GMT;
+      - wikia_beacon_id=zQN4UUwkC6; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+        2016 16:38:26 GMT;
       Cache-Control:
       - private, s-maxage=0, max-age=0, must-revalidate
     body:
@@ -2457,5 +2457,5 @@ http_interactions:
         cm9vLnNjc3MiXTs8L3NjcmlwdD4KPCEtLSBOaWVsc2VuIGlzIGRpc2FibGVk
         IC0tPjwvYm9keT4KCgoKPC9odG1sPgo=
     http_version: 
-  recorded_at: Sun, 21 Feb 2016 16:23:27 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Sun, 21 Feb 2016 16:38:26 GMT
+recorded_with: VCR 3.0.1
