@@ -4,9 +4,7 @@ describe Lyriki::Legacy::SongLyrics, vcr: { record: :none } do
 
   subject { Lyriki::Legacy::SongLyrics.new artist: "frank zappa", song: "inca roads" }
 
-  it { is_expected.to be_truthy }
-
-  describe "response_data" do
+  describe "#response_data" do
     it "returns data" do
       data = subject.response_data
       trimmed_data = data.map(&:strip)

@@ -1,10 +1,13 @@
-ShowCopNames: true
 AllCops:
+  DisplayCopNames: true
   Exclude:
     - 'spec/fixtures'
 
-LineLength:
-  Max: 110
+Metrics/LineLength:
+  Max: 120
 
-StringLiterals:
+Style/SpaceAroundEqualsInParameterDefault:
+  Enabled: false
+
+Style/StringLiterals:
   EnforcedStyle: double_quotes
