@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://lyrics.wikia.com/api.php?artist=frank%20zappa&fmt=realjson&song=inca%20roads
+    uri: http://lyrics.wikia.com/api.php?action=lyrics&artist=frank%20zappa&fmt=realjson&song=inca%20roads
     body:
       encoding: US-ASCII
       string: ''
@@ -30,36 +30,38 @@ http_interactions:
       - text/javascript; charset=UTF-8
       X-Cacheable:
       - 'YES'
+      Fastly-Debug-Digest:
+      - 751ab16950410cbd135c99febd721e13be3e7cced1fa759e377779bcdaa1c334
       Content-Length:
       - '259'
       Accept-Ranges:
       - bytes
       Date:
-      - Sat, 29 Nov 2014 23:06:31 GMT
+      - Sun, 21 Feb 2016 16:23:27 GMT
       Age:
-      - '0'
+      - '1893'
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-wk-sjc3160-WIKIA, cache-lax1426-LAX
+      - cache-wk-sjc3160-WIKIA, cache-sjc3643-SJC
       X-Cache:
       - MISS, HIT
       X-Cache-Hits:
-      - 0, 1
+      - 0, 2
       X-Timer:
-      - S1417302391.112967,VS0,VE0
+      - S1456071807.943864,VS0,VE0
       Vary:
       - Accept-Encoding
       Set-Cookie:
-      - Geo={%22city%22:%22FIXME%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
+      - Geo={%22region%22:%22CA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
         path=/
-      - wikia_beacon_id=UiClXLZXvb; domain=.wikia.com; path=/; expires=Thu, 28 May
-        2015 23:06:31 GMT;
+      - wikia_beacon_id=X01krnkEf4; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+        2016 16:23:27 GMT;
     body:
       encoding: UTF-8
       string: '{"artist":"Frank Zappa","song":"Inca Roads","lyrics":"Did a vehicle
         \nCome from somewhere out there \nJust to land in the Andes? \nWas it round
         \nAnd did it have \nA motor \nOr was it \nSomething \nDifferent \n\n[...]","url":"http:\/\/lyrics.wikia.com\/Frank_Zappa:Inca_Roads","page_namespace":0,"page_id":328883,"isOnTakedownList":"0"}'
     http_version: 
-  recorded_at: Sat, 29 Nov 2014 23:06:31 GMT
+  recorded_at: Sun, 21 Feb 2016 16:23:28 GMT
 recorded_with: VCR 2.9.3

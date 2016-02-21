@@ -19,7 +19,7 @@ module Lyriki
       private
 
       def url_for_song(artist, song)
-        "http://lyrics.wikia.com/api.php?artist=#{artist.url_encode}&song=#{song.url_encode}&fmt=realjson"
+        "http://lyrics.wikia.com/api.php?artist=#{artist.url_encode}&action=lyrics&song=#{song.url_encode}&fmt=realjson"
       end
 
     end
