@@ -4,8 +4,6 @@ describe Lyriki::Legacy::SongData, vcr: { record: :none } do
 
   subject { Lyriki::Legacy::SongData.new artist: "frank zappa", song: "inca roads" }
 
-  it { is_expected.to be_truthy }
-
   describe "#response_data" do
     it "returns stored data" do
       data = subject.response_data
