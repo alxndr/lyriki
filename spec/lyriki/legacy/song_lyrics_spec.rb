@@ -6,7 +6,7 @@ describe Lyriki::Legacy::SongLyrics, vcr: { record: :none } do
 
   it { is_expected.to be_truthy }
 
-  describe "response_data" do
+  describe "#response_data" do
     it "returns data" do
       data = subject.response_data
       trimmed_data = data.map(&:strip)

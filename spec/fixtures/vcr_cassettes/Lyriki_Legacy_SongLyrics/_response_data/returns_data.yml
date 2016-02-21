@@ -43,19 +43,19 @@ http_interactions:
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-wk-sjc3160-WIKIA, cache-sjc3650-SJC
+      - cache-wk-sjc3160-WIKIA, cache-sjc3648-SJC
       X-Cache:
       - MISS, HIT
       X-Cache-Hits:
       - 0, 1
       X-Timer:
-      - S1456071807.562334,VS0,VE0
+      - S1456071807.718724,VS0,VE0
       Vary:
       - Accept-Encoding
       Set-Cookie:
       - Geo={%22region%22:%22CA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
         path=/
-      - wikia_beacon_id=HTD8JFzkHG; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+      - wikia_beacon_id=6-VTXvstpA; domain=.wikia.com; path=/; expires=Fri, 19 Aug
         2016 16:23:27 GMT;
     body:
       encoding: UTF-8
@@ -109,17 +109,17 @@ http_interactions:
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-wk-sjc3160-WIKIA, cache-sjc3625-SJC
+      - cache-wk-sjc3160-WIKIA, cache-sjc3133-SJC
       X-Cache:
       - MISS, HIT
       X-Cache-Hits:
-      - 0, 1
+      - 0, 2
       X-Timer:
-      - S1456071807.603014,VS0,VE0
+      - S1456071807.761945,VS0,VE0
       Vary:
       - Accept-Encoding
       Set-Cookie:
-      - wikia_beacon_id=AmZSHyACp7; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+      - wikia_beacon_id=FjylYP7DWD; domain=.wikia.com; path=/; expires=Fri, 19 Aug
         2016 16:23:27 GMT;
       Cache-Control:
       - private, s-maxage=0, max-age=0, must-revalidate
@@ -177,19 +177,19 @@ http_interactions:
       Connection:
       - keep-alive
       X-Served-By:
-      - ap-s17, cache-wk-sjc3161-WIKIA, cache-sjc3636-SJC
+      - ap-s17, cache-wk-sjc3161-WIKIA, cache-sjc3637-SJC
       X-Cache:
       - ORIGIN, MISS, HIT
       X-Cache-Hits:
       - ORIGIN, 0, 1
       X-Timer:
-      - S1456071807.643085,VS0,VE0
+      - S1456071807.804926,VS0,VE5
       Vary:
       - Accept-Encoding,Cookie
       Set-Cookie:
       - Geo={%22region%22:%22CA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
         path=/
-      - wikia_beacon_id=fU5xMSfSw5; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+      - wikia_beacon_id=1RN5Ifam7x; domain=.wikia.com; path=/; expires=Fri, 19 Aug
         2016 16:23:27 GMT;
       Cache-Control:
       - private, s-maxage=0, max-age=0, must-revalidate
