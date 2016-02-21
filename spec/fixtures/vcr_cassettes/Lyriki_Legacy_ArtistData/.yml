@@ -30,31 +30,33 @@ http_interactions:
       - text/javascript; charset=UTF-8
       X-Cacheable:
       - 'YES'
+      Fastly-Debug-Digest:
+      - 34c8f82d2f15d17f040fc1151a772c276738b30341f00da04479771aff31b1d7
       Content-Length:
-      - '9076'
+      - '9093'
       Accept-Ranges:
       - bytes
       Date:
-      - Sat, 29 Nov 2014 21:43:30 GMT
+      - Sun, 21 Feb 2016 16:38:26 GMT
       Age:
-      - '1665'
+      - '0'
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-wk-sjc3161-WIKIA, cache-lax1424-LAX
+      - cache-wk-sjc3161-WIKIA, cache-sjc3622-SJC
       X-Cache:
-      - MISS, HIT
+      - MISS, MISS
       X-Cache-Hits:
-      - 0, 1
+      - 0, 0
       X-Timer:
-      - S1417297410.442738,VS0,VE0
+      - S1456072706.086326,VS0,VE81
       Vary:
       - Accept-Encoding
       Set-Cookie:
-      - Geo={%22city%22:%22FIXME%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
+      - Geo={%22region%22:%22CA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22};
         path=/
-      - wikia_beacon_id=9AcC58Yvy-; domain=.wikia.com; path=/; expires=Thu, 28 May
-        2015 21:43:30 GMT;
+      - wikia_beacon_id=kwdwu6ewm9; domain=.wikia.com; path=/; expires=Fri, 19 Aug
+        2016 16:38:26 GMT;
     body:
       encoding: UTF-8
       string: '{"artist":"Frank Zappa","albums":[{"album":"Lumpy Gravy","year":"1968","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Lumpy%20Gravy","songs":["Lumpy
@@ -82,9 +84,10 @@ http_interactions:
         Midnight Ranch","Dew On The Newts We Got","The Lad Searches The Night For
         His Newts","The Girl Wants To Fix Him Some Broth","The Girl''s Dream","Little
         Green Scratchy Sweaters & Courduroy Ponce","Strictly Genteel (The Finale)"]},{"album":"Just
-        Another Band From L.A.","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Just%20Another%20Band%20From%20L.A.","songs":["Billy
-        The Mountain","The Mothers Of Invention:Call Any Vegetable","Eddie, Are You
-        Kidding?","Magdalena","Dog Breath"]},{"album":"Waka\/Jawaka","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Waka\/Jawaka","songs":["Big
+        Another Band From L.A.","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Las%20Mothers%20Just%20Another%20Band%20From%20L.A.","songs":["Las
+        Mothers:Billy The Mountain","The Mothers Of Invention:Call Any Vegetable","Las
+        Mothers:Eddie, Are You Kidding?","Las Mothers:Magdalena","Las Mothers:Dog
+        Breath"]},{"album":"Waka\/Jawaka","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20Waka\/Jawaka","songs":["Big
         Swifty","Your Mouth","It Just Might Be A One-Shot Deal","Waka\/Jawaka"]},{"album":"The
         Grand Wazoo","year":"1972","amazonLink":"http:\/\/www.amazon.com\/exec\/obidos\/redirect?link_code=ur2&tag=wikia-20&camp=1789&creative=9325&path=external-search%3Fsearch-type=ss%26index=music%26keyword=Frank%20Zappa%20The%20Grand%20Wazoo","songs":["The
         Grand Wazoo","For Calvin (And His Next Two Hitch-Hikers)","Cletus Awreetus-Awrightus","Eat
@@ -304,13 +307,12 @@ http_interactions:
         Airport Tape","The Groupie Routine","The Idiot Bastard Son","The Little March","The
         M.O.I. Anti-Smut Loyalty Oath","The Madison Panty-Sniffing Festival","The
         Mammy Anthem","The Man From Utopia","The Torture Never Stops (Original Version)","The
-        Torture Never Stops (YCDTOSA)","Tiger Roach","Tiny Sick Tears","Titties N
-        Beer","Trouble Every Day","Tryin'' To Grow A Chin (YCDTOSA)","Tush Tush Tush
-        (A Token Of My Extreme)","Underground Freak-Out Music","Village Of The Sun
-        (YCDTOSA)","Wedding Dress Song","Where Is Johnny Velvet?","Where''s Our Equipment?","Why
-        Does It Hurt When I Pee? (YCDTOSA)","World''s Greatest Sinners","Wowie Zowie","You
-        Call That Music?","You Didn''t Try To Call Me","Zomby Woof (YCDTOSA)","Zoot
-        Allures (YCDTOSA)"]}]}'
+        Torture Never Stops (YCDTOSA)","Tiger Roach","Tiny Sick Tears","Trouble Every
+        Day","Tryin'' To Grow A Chin (YCDTOSA)","Tush Tush Tush (A Token Of My Extreme)","Underground
+        Freak-Out Music","Village Of The Sun (YCDTOSA)","Wedding Dress Song","Where
+        Is Johnny Velvet?","Where''s Our Equipment?","Why Does It Hurt When I Pee?
+        (YCDTOSA)","World''s Greatest Sinners","Wowie Zowie","You Call That Music?","You
+        Didn''t Try To Call Me","Zomby Woof (YCDTOSA)","Zoot Allures (YCDTOSA)"]}]}'
     http_version: 
-  recorded_at: Sat, 29 Nov 2014 21:43:30 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Sun, 21 Feb 2016 16:38:26 GMT
+recorded_with: VCR 3.0.1
