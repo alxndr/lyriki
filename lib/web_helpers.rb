@@ -9,7 +9,7 @@ module WebHelpers
     case response
     when Net::HTTPSuccess     then response.body
     when Net::HTTPRedirection then get(response["location"], limit - 1)
-    else response.error!
+    else                           response.error!
     end
   end
 
