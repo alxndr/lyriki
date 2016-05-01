@@ -6,10 +6,19 @@ AllCops:
 Metrics/LineLength:
   Max: 120
 
+Style/Documentation:
+  Enabled: false
+
 Style/EmptyLinesAroundBlockBody:
   Enabled: false
 
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
 Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/ExtraSpacing:
   Enabled: false
 
 Style/SpaceAroundEqualsInParameterDefault:
