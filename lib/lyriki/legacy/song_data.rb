@@ -10,6 +10,9 @@ module Lyriki
       def initialize(**args)
         raise ArgumentError unless args[:artist] && args[:song]
         @data = get(url_for_song(args[:artist], args[:song]))
+        if response_data["lyrics"] == "Not found"
+          raise NoLyricsError, "lyrics not found: #{response_data}"
+        end
       end
 
       def response_data
@@ -25,3 +28,5 @@ module Lyriki
     end
   end
 end
+
+class NoLyricsError < StandardError; end
