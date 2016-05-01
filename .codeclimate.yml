@@ -1,0 +1,25 @@
+---
+engines:
+  brakeman:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+    config: "config/rubocop.yml"
+ratings:
+  paths:
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.rb"
+exclude_paths:
+- config/
+- spec/fixtures/
