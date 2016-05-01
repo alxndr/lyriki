@@ -1,0 +1,27 @@
+---
+engines:
+  # brakeman:
+  #   enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+       ruby:
+         mass_threshold: 45
+       javascript:
+         mass_threshold: 30
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+    config: "config/rubocop.yml"
+ratings:
+  paths:
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.rb"
+exclude_paths:
+- config/
+- spec/fixtures/

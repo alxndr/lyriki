@@ -9,11 +9,13 @@ module Lyriki
 
       def initialize(**args)
         raise ArgumentError unless args[:artist] && args[:song]
-        @data = get(url_for_song(args[:artist], args[:song]))
+        data = JSON.parse(get(url_for_song(args[:artist], args[:song])))
+        raise NoLyricsError, "lyrics not found: #{data}" if data["lyrics"] == "Not found"
+        @data = data
       end
 
       def response_data
-        JSON.parse @data
+        @data
       end
 
       private
@@ -25,3 +27,5 @@ module Lyriki
     end
   end
 end
+
+class NoLyricsError < StandardError; end
